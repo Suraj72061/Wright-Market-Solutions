@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Wright-Market</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <!--- Top Section -->
+  <div class="sticky-header">
+    <div class="logo">
+      <img src="images/wright-market.png" alt="Wright Market Logo" />
+    </div>
+  </div>
+
+  <header class="home">
+    <div class="hero">
+      <div class="left-content">
+        <h1 class="headline">
+          Turn Your App Idea Into Reality — Without the Headaches!
+        </h1>
+        <p class="sub-headline">
+          We design and develop custom mobile apps that solve real business problems.
+        </p>
+      </div>
+      <form class="right-form" aria-label="Schedule a Demo">
+        <h2 class="form-title">Schedule a Demo</h2>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name *</label>
+            <input type="text" id="first-name" name="first-name" required />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name *</label>
+            <input type="text" id="last-name" name="last-name" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="work-email">Work Email *</label>
+            <input type="email" id="work-email" name="work-email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone *</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="reach-you">Best way to reach you *</label>
+            <div class="radio-group">
+              <label>
+                Phone
+                <input type="radio" name="contact" value="phone" checked>
+              </label>
+              <label>
+                Email
+                <input type="radio" name="contact" value="email">
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group full-width">
+          <label for="help">Message/Requirement *</label>
+          <textarea id="help" name="help" placeholder="Describe your project..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+
+        <p class="privacy-text">
+          By submitting this form, you agree to receive email, text, and promotional communications related to products
+          and services in accordance with our
+          <a href="/privacy-policy" target="_blank" rel="noopener">privacy policy</a>.
+        </p>
+      </form>
+    </div>
+  </header>
+  <!-- Portfolio Section -->
+  <div class="portfolio">
+    <h1>Our Portfolio</h1>
+    <div class="portfolio-scroll">
+      <div class="card-container">
+        <div class="card"><img src="images/wright-market-1.png" alt=""></div>
+        <div class="card"><img src="images/wright-market-2.png" alt=""></div>
+        <div class="card"><img src="images/wright-market-3.png" alt=""></div>
+        <div class="card"><img src="images/wright-market-4.png" alt=""></div>
+        <div class="card"><img src="images/wright-market-5.png" alt=""></div>
+        <div class="card"><img src="images/wright-market-6.png" alt=""></div>
+        <div class="card"><img src="images/wright-market-7.png" alt=""></div>
+        <div class="card"><img src="images/wright-market-8.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+  <!-- Popup -->
+  <div class="popup" id="popup">
+    <span class="close">&times;</span>
+    <img src="" alt="Popup Image" id="popup-img">
+  </div>
+  <!---Technology Section-->
+  <main class="technology-section">
+    <header>
+      <div class="subtitle-with-lines">
+        <p class="subtitle">Technology Stack</p>
+      </div>
+      <h1 class="sub-heading">Technology We Work With In <span>App Development</span></h1>
+    </header>
+    <div class="technology-body">
+      <section class="stack-section">
+        <section class="stack-category">
+          <h2>Frontend</h2>
+          <div class="tech-grid">
+            <div class="tech-item">
+              <img src="images/dart.png" alt="Dart Logo" />
+              <p>Dart</p>
+            </div>
+            <div class="tech-item">
+              <img src="images/flutter.png" alt="Flutter Logo" />
+              <p>Flutter</p>
+            </div>
+            <div class="tech-item">
+              <img src="images/swifti.png" alt="Swift Logo" />
+              <p>Swift</p>
+            </div>
+            <div class="tech-item">
+              <img src="images/react-native.png" alt="React Native Logo" />
+              <p>React Native</p>
+            </div>
+          </div>
+        </section>
+        <section class="stack-category">
+          <h2>Backend</h2>
+          <div class="tech-grid">
+            <div class="tech-item">
+              <img src="images/javascript.png" alt="JavaScript Logo" />
+              <p>JavaScript</p>
+            </div>
+            <div class="tech-item">
+              <img src="images/python.png" alt="Python Logo" />
+              <p>Python</p>
+            </div>
+            <div class="tech-item">
+              <img src="images/node-js.svg" alt="Node.js Logo" />
+              <p>Node.js</p>
+            </div>
+            <div class="tech-item">
+              <img src="images/php.svg" alt="PHP Logo" />
+              <p>PHP</p>
+            </div>
+          </div>
+        </section>
+        <section class="stack-category">
+          <h2>Infrastructure</h2>
+          <div class="tech-grid">
+            <div class="tech-item">
+              <img src="images/app-store.png" alt="App Store Logo" />
+              <p>App Store</p>
+            </div>
+            <div class="tech-item">
+              <img src="images/playstore.svg" alt="Google Play Logo" />
+              <p>Google Play</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="technology-stack-image">
+        <img src="images/technology-stack.svg" alt="Technology Illustration" />
+      </section>
+    </div>
+  </main>
+  <!---Services-Section-->
+  <section class="why-choose">
+    <h2>Why Choose Our Mobile App Development Services?</h2>
+    <div class="reasons">
+      <article>
+        <span class="number">01</span>
+        <h3>Extensive Experience</h3>
+        <p>15+ years of collective experience in app design &amp; development</p>
+      </article>
+      <article>
+        <span class="number">02</span>
+        <h3>User-friendly UI</h3>
+        <p>Intuitive and eye-catching designs to ensure complete user satisfaction</p>
+      </article>
+      <article>
+        <span class="number">03</span>
+        <h3>Strategic approach</h3>
+        <p>High-quality coding, complex architecture, and thorough testing</p>
+      </article>
+      <article>
+        <span class="number">04</span>
+        <h3>Commitment to your success</h3>
+        <p>All our efforts are only focused on achieving your success</p>
+      </article>
+      <article>
+        <span class="number">05</span>
+        <h3>Business Insight</h3>
+        <p>We have a deep understanding of latest trends and how to use them effectively</p>
+      </article>
+      <article>
+        <span class="number">06</span>
+        <h3>Effortless integration</h3>
+        <p>Smooth integration of application with PLM, CRM, ERP, and other APIs</p>
+      </article>
+    </div>
+    <div class="stats">
+      <div>
+        <span class="stat-number">362+</span>
+        <p>Clients</p>
+      </div>
+      <div>
+        <span class="stat-number">17+</span>
+        <p>Countries</p>
+      </div>
+      <div>
+        <span class="stat-number stat-number-93">93%</span>
+        <p>Repeat Business</p>
+      </div>
+      <div>
+        <span class="stat-number">16,225+</span>
+        <p>Hours of code</p>
+      </div>
+    </div>
+  </section>
+  <!---other-services-->
+  <div class="service-container">
+    <header class="header">
+      <div class="subtitle-with-lines">
+        <p class="subtitle">Other Services</p>
+      </div>
+      <h1 class="main-title">One Solution For All Your <span class="highlight">Digital Needs</span></h1>
+    </header>
+    <main>
+      <section class="services-grid">
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="images/Website_developlent.svg" alt="Website Development Icon">
+          </div>
+          <h2 class="service-title">Website Development</h2>
+          <p class="service-description">Highly functional & visually appealing website designed to meet your need.
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="images/Programmer-amico.svg" alt="App Development Icon">
+          </div>
+          <h2 class="service-title">App Development</h2>
+          <p class="service-description">Innovative and user-friendly mobile application designed to engage users.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="images/UI_UX.svg" alt="UI/UX Design Icon">
+          </div>
+          <h2 class="service-title">UI/UX</h2>
+          <p class="service-description">Design eye-catching UI/UX interfaces for effortless user interaction</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="images/SEO_analytics.svg" alt="SEO Icon">
+          </div>
+          <h2 class="service-title">Search Engine Optimization (SEO)</h2>
+          <p class="service-description">Custom SEO solutions for enhanced search engine visibility and growth</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="images/Mobile_Marketing.svg" alt="Social Media Marketing Icon">
+          </div>
+          <h2 class="service-title">Social Media Marketing (SMM)</h2>
+          <p class="service-description">Build a strong online presence and engage with your targeted audience</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="images/Website_Creator.svg" alt="Graphic Design Icon">
+          </div>
+          <h2 class="service-title">Graphic Design</h2>
+          <p class="service-description">Designs that Speak Your Brand's Narrative and Connect with Your Audience</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="images/Blog_post.svg" alt="Content Writing Icon">
+          </div>
+          <h2 class="service-title">Content Writing</h2>
+          <p class="service-description">Engaging and meaningful content to connect with your audience</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="images/Revenue-pana.svg" alt="Pay Per Click Icon">
+          </div>
+          <h2 class="service-title">Pay Per Click</h2>
+          <p class="service-description">Maximize your ROI and drive targeted traffic to your digital assets</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <!--Contact-Form-->
+  <section class="contact-container">
+    <div class="contact-section">
+      <div class="contact-info">
+        <h2 class="section-title">
+          Get in touch and one of <span class="expert-highlight">our experts</span> will assist you:
+        </h2>
+        <div class="office-location">
+          <h3 class="office-title">Venturus - Atlanta / GA - EUA</h3>
+          <address class="office-address">
+            1201 Peachtree Street NE,<br>
+            Floors 1, 2 and 3,<br>
+            Atlanta, Georgia<br>
+            ZIP Code 30361
+          </address>
+        </div>
+        <div class="office-location">
+          <h3 class="office-title">Venturus - Campinas / SP - Brasil</h3>
+          <address class="office-address">
+            Estrada Giuseppina Vianelli di Napoli, n° 1.185<br>
+            Condomínio GlobalTech Campinas<br>
+            Polo II de Alta Tecnologia<br>
+            CEP 13086-530
+          </address>
+        </div>
+        <div class="office-location">
+          <h3 class="office-title">Venturus - Manaus / AM - Brasil</h3>
+          <address class="office-address">
+            Rua Salvador, n° 440<br>
+            Adrianópolis<br>
+            CEP 69057-040
+          </address>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form class="right-form right-form-end">
+          <h2 class="form-title">SCHEDULE A DEMO</h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name *</label>
+              <input type="text" required />
+            </div>
+            <div class="form-group">
+              <label>Last Name *</label>
+              <input type="text" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Work Email *</label>
+              <input type="email" required />
+            </div>
+            <div class="form-group">
+              <label>Phone *</label>
+              <input type="tel" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="reach-you">Best way to reach you *</label>
+              <div class="radio-group">
+                <label>
+                  Phone
+                  <input type="radio" name="contact" value="phone" checked>
+                </label>
+                <label>
+                  Email
+                  <input type="radio" name="contact" value="email">
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group full-width">
+            <label>Message/Requirement*</label>
+            <textarea required placeholder=""></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+          <p class="privacy-text">
+            By submitting this form, you agree to receive email, text and
+            promotional communications from Blueshift related to products and
+            services in accordance with Blueshift's
+            <span>privacy policy</span> .
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!---Footer-->
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="images/wright-market.png" alt="Mass Software Solutions Logo" class="logo" />
+        <div class="footer-patient">
+          <p>©2025 Mass Software Solutions Pvt. Ltd.</p>
+        </div>
+      </div>
+
+
+      <div class="footer-center">
+        <p>
+          <a href="tel:+913340394600">(+91) 33 4039 4600</a><br>
+          <a href="mailto:info@massoftind.com">info@massoftind.com</a>
+        </p>
+      </div>
+      <div class="footer-right">
+        <a href="#" aria-label="Facebook" target="_blank" rel="noopener">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" aria-label="Twitter" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" aria-label="Behance" target="_blank" rel="noopener">
+          <i class="fab fa-behance"></i>
+        </a>
+        <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="script.js"></script>
+  </body>
+
+  </html>
